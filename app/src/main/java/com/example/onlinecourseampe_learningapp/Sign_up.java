@@ -109,6 +109,10 @@ public class Sign_up extends AppCompatActivity {
                 }
 
                 // التحقق من أن الرقم يحتوي على أرقام فقط
+
+
+
+
                 if (!PhoneIn.matches("^[0-9]+$")) {
                     activitySignUpBinding.Phone.setError("الرجاء إدخال رقم هاتف صحيح");
                     return;
