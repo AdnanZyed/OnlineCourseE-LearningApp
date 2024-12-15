@@ -13,6 +13,9 @@
         android:theme="@style/Theme.onlinecourseampe_learningapp"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity_Main"
+            android:exported="false" />
+        <activity
             android:name=".MainActivityVerifyCodeActivity"
             android:exported="false" />
         <activity
